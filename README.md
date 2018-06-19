@@ -4,7 +4,7 @@ Coded Examples of Different types of Clustering Techniques...
 # K-means Clustering-
 Digit Recognition...Well it do seems to wear off upon convoluted encounters...Hence we got..
 
-# Spectral Clustering-
+# Spectral Clustering-open KMeansClustering.py for side by side comparision
 Plays pretty good with complex geometry but still, what if we have like- Million DataPoints?
 
 # Mini-Batch k-means-

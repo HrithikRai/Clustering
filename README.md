@@ -12,3 +12,13 @@ baddest off em' all...Color Quantization..Set k as per ur need..!
 
 # K-means elbow method-
 Well bruh..do u really know,how many clusters u need?..Go for the elbow! 
+
+# NOTE !!!
+paste this little shite in DigitRecognitionKMeans.py for generating the Heatmap..(A cooler terminology for Confusion Matrix)
+
+from sklearn.metrics import confusion_matrix
+mat=confusion_matrix(digits.target,labels)
+sns.heatmap(mat.T,square=True,annot=True,fmt='d',cbar='False',
+            xticklabels=digits.target_names,yticklabels=digits.target_names)
+plt.xlabel("True Label")
+plt.ylabel("False Label")
